@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SoportePCWorld</string>
+    <string name="email_domain_com">email@domain.com</string>
+    <string name="tickets">Tickets</string>
+    <string name="serarch">Serarch</string>
+    <string name="search">Search</string>
+    <string name="stats">Stats</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+</resources>
