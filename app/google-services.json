@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1009743235992",
+    "project_id": "soportepcworldapp",
+    "storage_bucket": "soportepcworldapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009743235992:android:85e557809304be3345b9ed",
+        "android_client_info": {
+          "package_name": "com.aliasferno.soportepcworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009743235992-a6kk8ctjc2adkgg656fln6jrtb1vqqj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aliasferno.soportepcworld",
+            "certificate_hash": "9bdb6f19896ce78904dd621338c38909432273b3"
+          }
+        },
+        {
+          "client_id": "1009743235992-kv2vk2stl9en2opo8nnvti069ltguvo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARCietmrEP7_A4vU-pgGCBuGYMWq2rEM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009743235992-kv2vk2stl9en2opo8nnvti069ltguvo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

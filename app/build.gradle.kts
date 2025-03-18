@@ -1,14 +1,15 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.soportepcworld"
+    namespace = "com.aliasferno.soportepcworld"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.soportepcworld"
+        applicationId = "com.aliasferno.soportepcworld"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -46,4 +47,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("androidx.credentials:credentials:1.3.0")
+    implementation("androidx.credentials:credentials-play-services-auth:1.3.0")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
 }

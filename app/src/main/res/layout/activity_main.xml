@@ -53,7 +53,9 @@
         android:id="@+id/login_btnContinuar"
         android:layout_width="320dp"
         android:layout_height="50dp"
+        android:background="@drawable/round_button"
         android:text="Continuar"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -70,6 +72,7 @@
         android:ems="10"
         android:hint="@string/email_domain_com"
         android:inputType="textEmailAddress"
+        android:textSize="16sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,28 +97,20 @@
 
     <Button
         android:id="@+id/login_btnGoogle"
-        android:layout_width="320dp"
-        android:layout_height="50dp"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:drawableLeft="@drawable/common_google_signin_btn_icon_light_normal"
         android:text="Continuar con Google"
+        android:textColor="@color/white"
+        app:cornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="20px"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.737" />
-
-    <Button
-        android:id="@+id/login_btnFacebook"
-        android:layout_width="320dp"
-        android:layout_height="50dp"
-        android:text="Continuar con Facebook"
-        app:iconTintMode="add"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823" />
 
     <TextView
         android:id="@+id/login_lblRecuperaCuenta"
@@ -126,7 +121,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867" />
+        app:layout_constraintVertical_bias="0.818" />
 
     <TextView
         android:id="@+id/logib_lblAvisoDatos"
@@ -139,14 +134,17 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.961" />
+        app:layout_constraintVertical_bias="0.912" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="277dp"
         android:layout_height="179dp"
-        app:srcCompat="@drawable/logo_pc_world"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="7dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028"
+        app:srcCompat="@drawable/logo_pc_world" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
