@@ -28,4 +28,6 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
+    var test = findViewById<TextView>(R.id.textView);
 }
